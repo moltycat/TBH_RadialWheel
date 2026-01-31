@@ -92,3 +92,9 @@ The package includes custom scripts:
   3. `Molty_BG_Group_clean`: Select a group with drawings; it automatically enters all folders and assigns pegs to drawings.
   4. `Molty_def_rename`: Renames "deformation" to "def".
   5. `Molty_composite_AP_rename`: Renames composites based on connected nodes to assist in Autopatch system creation.
+
+---
+
+## ✉️ Contacts
+* **telegram**: @moltycat
+* **email**: gnev112@yandex.ru

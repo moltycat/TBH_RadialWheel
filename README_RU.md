@@ -95,7 +95,13 @@
   3. `Molty_BG_Group_clean` - нужно выделить группу с рисунками, автоматически входит по всем папкам и проставлят пеги к рисункам.
   4. `Molty_def_rename` - переименовывет deformation в def
   5. `Molty_composite_AP_rename` - переименовывет композ на основе подключенных к ниму нодам для созания autopatch систем
-
+  
+ 
+---
+ 
+## ✉️ Контакты
+* **telegram**: @moltycat
+* **email**: gnev112@yandex.ru
 
 
 
