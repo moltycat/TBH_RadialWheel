@@ -43,7 +43,7 @@
      `%AppData%\Roaming\Toon Boom Animation\Toon Boom Harmony Premium\2500-scripts\`
    * Переместите иконку `Molty_RadialWheel.png` в: 
      `.../2500-scripts/script-icons/`
-   * (Опционально для риггинга) Переместите скрипты из папки `Setup\HarmonyFiles\Scripts` в папку ресурсов Harmony:
+   * (Опционально для риггинга) Переместите скрипты из папки `Setup\Scripts` в папку ресурсов Harmony:
      `C:\Program Files (x86)\Toon Boom Animation\Toon Boom Harmony 25 Premium\resources\scripts\`
 6. **Активация**: Добавьте скрипт `Molty_RadialWheel` на панель инструментов внутри Harmony.
 
