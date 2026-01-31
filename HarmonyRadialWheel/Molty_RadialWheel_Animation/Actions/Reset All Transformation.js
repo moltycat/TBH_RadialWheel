@@ -1,1 +1,0 @@
-Action.perform("onActionResetTransformation", "sceneUI");

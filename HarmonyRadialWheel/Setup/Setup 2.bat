@@ -1,1 +1,0 @@
-pip install pyside6 keyboard pynput

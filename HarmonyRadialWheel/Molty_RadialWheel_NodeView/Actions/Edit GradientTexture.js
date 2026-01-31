@@ -1,1 +1,0 @@
-Tools.setCurrentTool("Edit Gradient/Texture");

@@ -1,1 +1,0 @@
-Tools.setCurrentTool("Close Gap");

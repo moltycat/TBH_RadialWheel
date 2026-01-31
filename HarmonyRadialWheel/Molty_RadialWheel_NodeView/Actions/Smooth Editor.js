@@ -1,1 +1,0 @@
-Tools.setCurrentTool("Smooth Editor");

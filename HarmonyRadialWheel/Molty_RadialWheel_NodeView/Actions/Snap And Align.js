@@ -1,1 +1,0 @@
-ToolProperties.setSnapToBoundingBoxes(!ToolProperties.getSnapToBoundingBoxes());

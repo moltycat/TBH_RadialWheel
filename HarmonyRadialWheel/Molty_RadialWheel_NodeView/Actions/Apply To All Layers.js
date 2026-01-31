@@ -1,1 +1,0 @@
-ToolProperties.setApplyToAllLayers(!ToolProperties.getApplyToAllLayers());

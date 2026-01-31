@@ -1,1 +1,0 @@
-Action.perform("onActionToggleShowManipulator", "miniPegModuleResponder");
