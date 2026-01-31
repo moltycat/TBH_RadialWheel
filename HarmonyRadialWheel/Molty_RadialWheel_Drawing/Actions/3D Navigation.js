@@ -1,0 +1,1 @@
+Tools.setCurrentTool("3D Navigation");

@@ -1,0 +1,1 @@
+ToolProperties.setSnapToContour(!ToolProperties.getSnapToContour());

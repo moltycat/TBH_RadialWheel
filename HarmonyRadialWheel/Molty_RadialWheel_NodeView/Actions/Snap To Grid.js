@@ -1,0 +1,1 @@
+ToolProperties.setSnapToGrid(!ToolProperties.getSnapToGrid());
