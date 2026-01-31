@@ -1,6 +1,5 @@
 # TBH_RadialWheel
 
-Harmony Radial Wheel
 Harmony Radial Wheel — это настраиваемое радиальное меню, разработанное для ускорения рабочего процесса в Toon Boom Harmony (или других приложениях). Оно позволяет мгновенно вызывать JS-скрипты и клавиатурные макросы через визуальный интерфейс, который появляется прямо под курсором мыши. 
 
 Основные возможности:
@@ -22,9 +21,9 @@ Harmony Radial Wheel — это настраиваемое радиальное 
 * Переместите файл "C:\HarmonyRadialWheel\Setup\HarmonyFiles\Molty_RadialWheel.png" по пути "C:\Users\sok-g\AppData\Roaming\Toon Boom Animation\Toon Boom Harmony Premium\2500-scripts\script-icons\Molty_RadialWheel.png"
 * Для полного функционала перместите файлы  Molty_Layers_script.js и Molty_Line_Thicknessю.js из папки "C:\HarmonyRadialWheel\Setup\HarmonyFiles\Scripts" по пути "C:\Program Files (x86)\Toon Boom Animation\Toon Boom Harmony 25 Premium\resources\scripts\"
 если у вас не 25 версия, то необходимо выбрать нужну папку в "C:\Program Files (x86)\Toon Boom Animation\"
+* добавьте скрипт Molty_RadialWheel в интерфейсе toon boom harmony как обычный скрипт
 
 ======================Использование===========================
-
 
 
 
