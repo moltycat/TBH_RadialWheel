@@ -28,7 +28,7 @@
 
 ## 🚀 Installation
 
-1. **Download**: Download the archive from the latest release.
+1. **Download**: Download the archive from the [latest release](https://github.com/moltycat/TBH_RadialWheel/releases/latest) 
 2. **Unpack**: Extract the `HarmonyRadialWheel` folder to the root of your `C:\` drive.
    > ⚠️ **Verification**: Ensure the command file is located at: `C:\HarmonyRadialWheel\harmony_command.json`
 3. **Python**: Install Python 3.13 from the [official website](https://www.python.org/downloads/) or use the installer in the folder:
