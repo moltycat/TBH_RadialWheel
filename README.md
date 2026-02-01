@@ -49,15 +49,16 @@
 ## 🛠 Usage
 
 1. **Start Host**: Run the script inside Harmony. The window should display: `✅RadialWheelHost started✅`.
-2. **Input Language**: **Important!** Switch your keyboard layout to English before launching `.pyw` files.
+2. **Input Language**: **Important!** Switch your keyboard layout to main system's one before launching `.pyw` files.
 3. **Select Wheel**: In `C:\HarmonyRadialWheel`, choose a template and run the shortcut or `Molty_RadialWheel.pyw`.
    * `Animation` — for animation tasks.
    * `Drawing` — for drawing tools.
    * `NodeView` — for rigging.
    * `Custom` — your own custom template.
-4. You can use multiple widgets simultaneously by assigning them to different keys.
-5. You can create as many widget folders and new templates as you need.
-6. **Operation**: Hold the hotkey → Hover over a sector → Release the key.
+4. Need to change shortcut if you have non-eng system's main language.
+5. You can use multiple widgets simultaneously by assigning them to different keys.
+6. You can create as many widget folders and new templates as you need.
+7. **Operation**: Hold the hotkey → Hover over a sector → Release the key.
 
 ---
 
