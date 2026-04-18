@@ -40,8 +40,6 @@
      `%AppData%\Roaming\Toon Boom Animation\Toon Boom Harmony Premium\2500-scripts\`
    * Move the `Molty_RadialWheel.png` icon to:
      `.../2500-scripts/script-icons/`
-   * *(Optional for Rigging)* Move scripts from `Setup\Scripts` to the Harmony resources folder:
-     `C:\Program Files (x86)\Toon Boom Animation\Toon Boom Harmony 25 Premium\resources\scripts\`
 6. **Activation**: Add the `Molty_RadialWheel` script to your toolbar inside Harmony.
 
 ---
@@ -52,16 +50,6 @@
 2. You can use multiple widgets simultaneously by assigning them to different keys.
 3. **Operation**: Hold the hotkey → Hover over a sector → Release the key.
 	> ⚠️ When the window is closed, it collapses into the tray, to close it completely, you need to press exit in the tray!
-2. **Layout**: Before running the `.pyw` script, you need to select a keyboard layout, switch to another layout and change the keyboard shortcut if it does not work with eng and standard English. After launching, the language can be changed without any problems.
-3. **Select Wheel**: In `C:\HarmonyRadialWheel`, choose a template and run the shortcut or `Molty_RadialWheel.pyw`.
-   * `Animation` — for animation tasks.
-   * `Drawing` — for drawing tools.
-   * `NodeView` — for rigging.
-   * `Custom` — your own custom template.
-4. Need to change shortcut to another language and relaucnh with that language selected in keyboard layout if wheel doesn't appear.
-5. You can use multiple widgets simultaneously by assigning them to different keys.
-6. You can create as many widget folders and new templates as you need.
-7. **Operation**: Hold the hotkey → Hover over a sector → Release the key.
 
 ---
 
