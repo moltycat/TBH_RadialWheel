@@ -47,8 +47,9 @@
 ## 🛠 Usage
 
 1. **Start Host**: Run the script inside Harmony. The window should display: `✅RadialWheelHost started✅`.
-2. You can use multiple widgets simultaneously by assigning them to different keys.
-3. **Operation**: Hold the hotkey → Hover over a sector → Release the key.
+2. **Starting the wheel**: In the folder `C:\HarmonyRadialWheel\Molty_RadialWheel `run `Molty_RadialWheel.pyw'.
+3. You can use multiple widgets simultaneously by assigning them to different keys.
+4. **Operation**: Hold the hotkey → Hover over a sector → Release the key.
 	> ⚠️ When the window is closed, it collapses into the tray, to close it completely, you need to press exit in the tray!
 
 ---
