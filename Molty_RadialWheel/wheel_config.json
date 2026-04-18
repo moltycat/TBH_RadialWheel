@@ -1,0 +1,682 @@
+{
+    "wheels": [
+        {
+            "name": "Drawing tools",
+            "shortcut": "q",
+            "modifiers": [],
+            "segments": [
+                {
+                    "name": "Select",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Select.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Select by Colour",
+                            "js": "Tools.setCurrentTool(\"Select\");\nToolProperties.setSelectByColourMode(true);",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Select by Colour.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Cutter",
+                            "js": "Tools.setCurrentTool(\"Cutter\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Cutter.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Reposition All Drawings",
+                            "js": "Tools.setCurrentTool(\"Reposition All Drawings\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Reposition All Drawings.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Select\");\nToolProperties.setSelectByColourMode(false);"
+                },
+                {
+                    "name": "Contour Editor",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Contour Editor.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Centerline Editor",
+                            "js": "Tools.setCurrentTool(\"Centerline Editor\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Centerline Editor.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Pencil Editor",
+                            "js": "Tools.setCurrentTool(\"Pencil Editor\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Pencil Editor.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Pencil Retouch",
+                            "js": "Tools.setCurrentTool(\"Pencil Retouch\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Pencil Retouch.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Smooth Editor",
+                            "js": "Tools.setCurrentTool(\"Smooth Editor\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Smooth Editor.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Perspective",
+                            "js": "Tools.setCurrentTool(\"Perspective\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Perspective.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Envelope",
+                            "js": "Tools.setCurrentTool(\"Envelope\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Envelope.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Edit GradientTexture",
+                            "js": "Tools.setCurrentTool(\"Edit Gradient/Texture\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Edit GradientTexture.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Contour Editor\");"
+                },
+                {
+                    "name": "Brush",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Brush.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Stencil Brush",
+                            "js": "Tools.setCurrentTool(\"Stencil Brush\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Stencil Brush.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Brush\");"
+                },
+                {
+                    "name": "Pencil Editor",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Pencil Editor.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Pencil Editor\");"
+                },
+                {
+                    "name": "Stamp",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Stamp.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Stamp\");"
+                },
+                {
+                    "name": "Eraser",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Eraser.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Eraser\");"
+                },
+                {
+                    "name": "Text",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Text.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Text\");"
+                },
+                {
+                    "name": "Rectangle",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Rectangle.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Ellipse",
+                            "js": "Tools.setCurrentTool(\"Ellipse\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Ellipse.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Line",
+                            "js": "Tools.setCurrentTool(\"Line\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Line.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Polyline",
+                            "js": "Tools.setCurrentTool(\"Polyline\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Polyline.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Rectangle\");"
+                },
+                {
+                    "name": "Paint",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Paint.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Ink",
+                            "js": "Tools.setCurrentTool(\"Ink\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Ink.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Paint Unpainted",
+                            "js": "Tools.setCurrentTool(\"Paint\");\nToolProperties.setPaintMode(3);",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Paint Unpainted.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Repaint",
+                            "js": "Tools.setCurrentTool(\"Paint\");\nToolProperties.setPaintMode(2);",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Repaint.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Unpaint",
+                            "js": "Tools.setCurrentTool(\"Paint\");\nToolProperties.setPaintMode(1);",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Unpaint.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Stroke",
+                            "js": "Tools.setCurrentTool(\"Stroke\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Stroke.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Close Gap",
+                            "js": "Tools.setCurrentTool(\"Close Gap\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Close Gap.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Paint\");\nToolProperties.setPaintMode(0);"
+                },
+                {
+                    "name": "Colour Eyedropper",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Colour Eyedropper.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Pencil Texture Eyedropper",
+                            "js": "Tools.setCurrentTool(\"Pencil Texture Eyedropper\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Pencil Texture Eyedropper.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Colour Eyedropper\");"
+                },
+                {
+                    "name": "Pivot",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Pivot.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionChoosePivotTool\", \"sceneUI\");"
+                },
+                {
+                    "name": "Morphing",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Morphing.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Morphing\");"
+                },
+                {
+                    "name": "Hand",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Hand.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Zoom",
+                            "js": "Tools.setCurrentTool(\"Zoom\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Zoom.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Rotate View",
+                            "js": "Tools.setCurrentTool(\"Rotate View\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Rotate View.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "3D Navigation",
+                            "js": "Tools.setCurrentTool(\"3D Navigation\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\3D Navigation.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Reset View",
+                            "js": "Action.perform(\"onActionResetView\", \"cameraView\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Reset View.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Hand\");"
+                },
+                {
+                    "name": "Animate Current Frame",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Animate Current Frame.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Animate Onion Skin Range",
+                            "js": "Action.perform(\"onActionAnimatedOnRangeKeyframeMode\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Animate Onion Skin Range.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Animate OFF",
+                            "js": "Action.perform(\"onActionStaticKeyframeMode\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Animate OFF.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionAnimatedKeyframeMode\", \"sceneUI\");"
+                },
+                {
+                    "name": "Transform",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Transform.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Translate",
+                            "js": "Action.perform(\"onActionChooseSpTranslateTool()\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Translate.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Rotate",
+                            "js": "Action.perform(\"onActionChooseSpRotateTool()\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Rotate.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Scale",
+                            "js": "Action.perform(\"onActionChooseSpScaleTool()\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Scale.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Skew",
+                            "js": "Action.perform(\"onActionChooseSpSkewTool()\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Skew.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Reset All Transformation",
+                            "js": "Action.perform(\"onActionResetTransformation\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Reset All Transformation.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Transform\");"
+                },
+                {
+                    "name": "Show Controls",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show Controls.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Hide All Controls",
+                            "js": "Action.perform(\"onActionHideAllControls\", \"scene\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Hide All Controls.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionToggleControl\", \"scene\");"
+                },
+                {
+                    "name": "Snapping ON",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Snapping ON.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Snap To Grid",
+                            "js": "ToolProperties.setSnapToGrid(!ToolProperties.getSnapToGrid());\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Snap To Grid.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Snap to Contour",
+                            "js": "ToolProperties.setSnapToContour(!ToolProperties.getSnapToContour());\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Snap to Contour.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Snap to Alignment Guides",
+                            "js": "Action.perform(\"onActionToggleSnapToAlignmentGuides\", \"cameraView\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Snap to Alignment Guides.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Snap And Align",
+                            "js": "ToolProperties.setSnapToBoundingBoxes(!ToolProperties.getSnapToBoundingBoxes());\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Snap And Align.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Snapping OFF",
+                            "js": "ToolProperties.setSnapping(0,0,0);\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Snapping OFF.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "ToolProperties.setSnapping(1,1,1);\n"
+                },
+                {
+                    "name": "Apply To All Layers",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Apply To All Layers.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Apply To All Frames ON",
+                            "js": "ToolProperties.setApplyAllDrawings(1);",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Apply To All Frames ON.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Apply To All Frames OFF",
+                            "js": "ToolProperties.setApplyAllDrawings(0);",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Apply To All Frames OFF.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "ToolProperties.setApplyToAllLayers(!ToolProperties.getApplyToAllLayers());"
+                },
+                {
+                    "name": "Show Only Selected Deformers",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show Only Selected Deformers.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Show Selected Deformers",
+                            "js": "var selectedNodes = selection.selectedNodes();\n  \n  for (var i = 0; i < selectedNodes.length; i++) {\n    var currentNode = selectedNodes[i];\n    Action.perform(\"onActionShowDeformer(QString)\", \"miniPegModuleResponder\", currentNode);\n  }",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show Selected Deformers.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Show Manipulator",
+                            "js": "Action.perform(\"onActionToggleShowManipulator\", \"miniPegModuleResponder\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show Manipulator.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Reset Current Keyframe",
+                            "js": "Action.perform(\"onActionResetDeform()\", \"miniPegModuleResponder\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Reset Current Keyframe.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Rig Tool",
+                            "js": "Action.perform(\"onActionSelectRigTool\", \"miniPegModuleResponder\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Rig Tool.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionShowSelectedDeformers\", \"miniPegModuleResponder\");"
+                }
+            ],
+            "outer_radius": 180,
+            "logo": "C:/HarmonyRadialWheel/Molty_RadialWheel/Logo1.png",
+            "harmony_only": true
+        },
+        {
+            "name": "Node View",
+            "shortcut": "w",
+            "modifiers": [],
+            "segments": [
+                {
+                    "name": "Pivot",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Pivot.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionChoosePivotTool\", \"sceneUI\");"
+                },
+                {
+                    "name": "Hand",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Hand.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Zoom",
+                            "js": "Tools.setCurrentTool(\"Zoom\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Zoom.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Rotate View",
+                            "js": "Tools.setCurrentTool(\"Rotate View\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Rotate View.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "3D Navigation",
+                            "js": "Tools.setCurrentTool(\"3D Navigation\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\3D Navigation.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Reset View",
+                            "js": "Action.perform(\"onActionResetView\", \"cameraView\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Reset View.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Hand\");"
+                },
+                {
+                    "name": "Transform",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Transform.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Translate",
+                            "js": "Action.perform(\"onActionChooseSpTranslateTool()\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Translate.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Rotate",
+                            "js": "Action.perform(\"onActionChooseSpRotateTool()\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Rotate.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Scale",
+                            "js": "Action.perform(\"onActionChooseSpScaleTool()\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Scale.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Skew",
+                            "js": "Action.perform(\"onActionChooseSpSkewTool()\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Skew.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Reset All Transformation",
+                            "js": "Action.perform(\"onActionResetTransformation\", \"sceneUI\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Reset All Transformation.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Tools.setCurrentTool(\"Transform\");"
+                },
+                {
+                    "name": "Show Controls",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show Controls.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Hide All Controls",
+                            "js": "Action.perform(\"onActionHideAllControls\", \"scene\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Hide All Controls.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionToggleControl\", \"scene\");"
+                },
+                {
+                    "name": "Show Only Selected Deformers",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show Only Selected Deformers.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Show Selected Deformers",
+                            "js": "var selectedNodes = selection.selectedNodes();\n  \n  for (var i = 0; i < selectedNodes.length; i++) {\n    var currentNode = selectedNodes[i];\n    Action.perform(\"onActionShowDeformer(QString)\", \"miniPegModuleResponder\", currentNode);\n  }",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show Selected Deformers.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Show Manipulator",
+                            "js": "Action.perform(\"onActionToggleShowManipulator\", \"miniPegModuleResponder\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show Manipulator.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Reset Current Keyframe",
+                            "js": "Action.perform(\"onActionResetDeform()\", \"miniPegModuleResponder\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Reset Current Keyframe.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Rig Tool",
+                            "js": "Action.perform(\"onActionSelectRigTool\", \"miniPegModuleResponder\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Rig Tool.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionShowSelectedDeformers\", \"miniPegModuleResponder\");"
+                },
+                {
+                    "name": "Layers script Link",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Layers script Link.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "Layer OL",
+                            "js": "var selectionNodes = selection.selectedNodes(); // \u041f\u043e\u043b\u0443\u0447\u0430\u0435\u043c \u043c\u0430\u0441\u0441\u0438\u0432 \u0432\u0441\u0435\u0445 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0445 \u043d\u043e\u0434\n\t\tfor (var i = 0; i < selectionNodes.length; i++) {\n\t\t\tvar sNode = selectionNodes[i]; // \u0422\u0435\u043a\u0443\u0449\u0430\u044f \u043d\u043e\u0434\u0430 \u0438\u0437 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u0438\u044f\n\n\t\t\tvar nodeName = node.getName(sNode);\n\t\t\tvar parent = node.parentNode(sNode);\n\t\t\tvar x = node.coordX(sNode);\n\t\t\tvar y = node.coordY(sNode);\n\t\t\tvar z = node.coordZ(sNode);\n\n\t\t\tvar OL = node.add(parent,\"OL\", \"OVERLAY\", x, y + 80, z);\n\n\t\t\tnode.link(sNode, 0, OL, 0);\n\t\t}\n\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Layer OL.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Layer LA",
+                            "js": "var selectionNodes = selection.selectedNodes(); // \u041f\u043e\u043b\u0443\u0447\u0430\u0435\u043c \u043c\u0430\u0441\u0441\u0438\u0432 \u0432\u0441\u0435\u0445 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0445 \u043d\u043e\u0434\n\t\tfor (var i = 0; i < selectionNodes.length; i++) {\n\t\t\tvar sNode = selectionNodes[i]; // \u0422\u0435\u043a\u0443\u0449\u0430\u044f \u043d\u043e\u0434\u0430 \u0438\u0437 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u0438\u044f\n\n\t\t\tvar nodeName = node.getName(sNode);\n\t\t\tvar parent = node.parentNode(sNode);\n\t\t\tvar x = node.coordX(sNode);\n\t\t\tvar y = node.coordY(sNode);\n\t\t\tvar z = node.coordZ(sNode);\n\n\t\t\tvar LA = node.add(parent,\"LA\", \"LINE_ART\", x, y + 80, z);\n\n\t\t\tnode.link(sNode, 0, LA, 0);\n\t\t}\n\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Layer LA.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Layer CA",
+                            "js": "var selectionNodes = selection.selectedNodes(); // \u041f\u043e\u043b\u0443\u0447\u0430\u0435\u043c \u043c\u0430\u0441\u0441\u0438\u0432 \u0432\u0441\u0435\u0445 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0445 \u043d\u043e\u0434\n\t\tfor (var i = 0; i < selectionNodes.length; i++) {\n\t\t\tvar sNode = selectionNodes[i]; // \u0422\u0435\u043a\u0443\u0449\u0430\u044f \u043d\u043e\u0434\u0430 \u0438\u0437 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u0438\u044f\n\n\t\t\tvar nodeName = node.getName(sNode);\n\t\t\tvar parent = node.parentNode(sNode);\n\t\t\tvar x = node.coordX(sNode);\n\t\t\tvar y = node.coordY(sNode);\n\t\t\tvar z = node.coordZ(sNode);\n\n\t\t\tvar CA = node.add(parent,\"CA\", \"COLOR_ART\", x, y + 80, z);\n\n\t\t\tnode.link(sNode, 0, CA, 0);\n\t\t}\n\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Layer CA.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Layer UL",
+                            "js": "var selectionNodes = selection.selectedNodes(); // \u041f\u043e\u043b\u0443\u0447\u0430\u0435\u043c \u043c\u0430\u0441\u0441\u0438\u0432 \u0432\u0441\u0435\u0445 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0445 \u043d\u043e\u0434\n\t\tfor (var i = 0; i < selectionNodes.length; i++) {\n\t\t\tvar sNode = selectionNodes[i]; // \u0422\u0435\u043a\u0443\u0449\u0430\u044f \u043d\u043e\u0434\u0430 \u0438\u0437 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u0438\u044f\n\n\t\t\tvar nodeName = node.getName(sNode);\n\t\t\tvar parent = node.parentNode(sNode);\n\t\t\tvar x = node.coordX(sNode);\n\t\t\tvar y = node.coordY(sNode);\n\t\t\tvar z = node.coordZ(sNode);\n\n\t\t\tvar UL = node.add(parent,\"UL\", \"UNDERLAY\", x, y + 80, z);\n\n\t\t\tnode.link(sNode, 0, UL, 0);\n\t\t}\n\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Layer UL.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Peg",
+                            "js": "Action.perform(\"onActionCreatePeg()\", \"Node View\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Peg.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Composite",
+                            "js": "Action.perform(\"onActionCreateComposite()\", \"Node View\");",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Composite.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Cutter Node",
+                            "js": "var selectionNodes = selection.selectedNodes(); // \u041f\u043e\u043b\u0443\u0447\u0430\u0435\u043c \u043c\u0430\u0441\u0441\u0438\u0432 \u0432\u0441\u0435\u0445 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0445 \u043d\u043e\u0434\n\t\tfor (var i = 0; i < selectionNodes.length; i++) {\n\t\t\tvar sNode = selectionNodes[i]; // \u0422\u0435\u043a\u0443\u0449\u0430\u044f \u043d\u043e\u0434\u0430 \u0438\u0437 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u0438\u044f\n\n\t\t\tvar nodeName = node.getName(sNode);\n\t\t\tvar parent = node.parentNode(sNode);\n\t\t\tvar x = node.coordX(sNode);\n\t\t\tvar y = node.coordY(sNode);\n\t\t\tvar z = node.coordZ(sNode);\n\n\t\t\t\n\t\t\tvar cutterNode = node.add(parent,\"Cut\", \"CUTTER\", x, y + 80, z);\n\t\t\tnode.link(sNode, 0, cutterNode, 0);\n\t\t}\n\n",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Cutter Node.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "(function() {\nvar vOL = 0;\nvar vLA = 0;\nvar vCA = 0;\nvar vUL = 0;\nvar vAP = 0;\nvar vgroup = 0;\nvar vgroupTex = 0;\n\nvar bodyText = new TextEdit();\nbodyText.text = \"\";\n\nfunction Molty_Layers_script(){\n \n\tvar exeDialog = new private_exeDialog();\n\n\tscene.beginUndoRedoAccum(\"Molty_Layers_script\");\n\n\texeDialog.main();\n\t  \n\tscene.endUndoRedoAccum(\"Molty_Layers_script\");\n\t\n }\n\n\nfunction private_exeDialog(){\n\n \tthis.main = function(){\n\t\tvar myDialog = new Dialog();\n\t\tmyDialog.title = \"Layers script V005\";\n\n\t\t\n\t\tvar butOL = new Button();\n\t\tbutOL.label = \"OL\";\n\t\tbutOL.callback = \"privateButOL\";\n\t\t\n\t\tvar butLA = new Button();\n\t\tbutLA.label = \"LA\";\n\t\tbutLA.callback = \"privateButLA\";\n\t\t\n\t\tvar butCA = new Button();\n\t\tbutCA.label = \"CA\";\n\t\tbutCA.callback = \"privateButCA\";\n\t\t\n\t\tvar butUL = new Button();\n\t\tbutUL.label = \"UL\";\n\t\tbutUL.callback = \"privateButUL\";\n\t\t\n\t\tvar butOLUL = new Button();\n\t\tbutOLUL.label = \"OL-LA-CA-UL\";\n\t\tbutOLUL.callback = \"privateButOLUL\";\n\t\t\n\t\tvar butLAAPCA = new Button();\n\t\tbutLAAPCA.label = \"LA-AP-CA\";\n\t\tbutLAAPCA.callback = \"privateButLAAPCA\";\n\t\t\n\t\tvar butLAAPCATex = new Button();\n\t\tbutLAAPCATex.label = \"LA-AP-CA+Texture\";\n\t\tbutLAAPCATex.callback = \"privateButLAAPCATex\";\n\t\t\n\t\tvar butFull = new Button();\n\t\tbutFull.label = \"UL LA-AP-CA OL\";\n\t\tbutFull.callback = \"privateButFull\";\n\t\t\n\t\tvar butAP = new Button();\n\t\tbutAP.label = \"AP\";\n\t\tbutAP.callback = \"privateButAP\";\n\t\t\n\t\tvar butClean = new Button();\n\t\tbutClean.label = \"Clean\";\n\t\tbutClean.callback = \"privateButClean\";\n\t\t\n\t\t\n\t\tmyDialog.add(butOL);\n\t\tmyDialog.add(butLA);\n\t\tmyDialog.add(butCA);\n\t\tmyDialog.add(butUL);\n\t\tmyDialog.add(butOLUL);\n\t\tmyDialog.add(butLAAPCA);\n\t\tmyDialog.add(butFull);\n\t\tmyDialog.add(butAP);\n\t\tmyDialog.add(butLAAPCATex);\n\t\tmyDialog.add(butClean);\n\t\tmyDialog.add(bodyText);\n\n\t\tif ( myDialog.exec() )\n\t\t{\n\t\t\tvar selectionNodes = selection.selectedNodes(0);\n\t\t\n\t\t\tfor (var i = 0; i < selectionNodes.length; ++i){\n\t\t\n\t\t\t\tvar sNode = selectionNodes[i];\n\n\t\t\t\tvar nodeName = node.getName(sNode);\n\t\t\t\tvar x = node.coordX(sNode);\n\t\t\t\tvar y = node.coordY(sNode);\n\t\t\t\tvar z = node.coordZ(sNode);\n\t\t\t\t\n\t\t\t\tif (vOL ==1)\n\t\t\t\t{\n\t\t\t\tvar OL = node.add(node.parentNode(sNode),\"OL\",\"OVERLAY\",x-80,y+80,z);\n\t\t\t\tnode.link(sNode,0,OL,0);\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\tif (vLA ==1)\n\t\t\t\t{\n\t\t\t\tvar LA = node.add(node.parentNode(sNode),\"LA\",\"LINE_ART\",x,y+80,z);\n\t\t\t\tnode.link(sNode,0,LA,0);\n\t\t\t\t}\n\t\t\t\tif (vCA ==1)\n\t\t\t\t{\n\t\t\t\tvar CA = node.add(node.parentNode(sNode),\"CA\",\"COLOR_ART\",x+80,y+80,z);\n\t\t\t\tnode.link(sNode,0,CA,0);\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\tif (vgroup ==1)\n\t\t\t\t{\n\t\t\t\t\t\n\t\t\t\tvar COMP = node.add(node.parentNode(sNode),\"COMP\",\"COMPOSITE\",x,y+160,z);\n\t\t\t\t\n\t\t\t\tvar CA = node.add(node.parentNode(sNode),\"CA\",\"COLOR_ART\",x+80,y+80,z);\n\t\t\t\tnode.link(sNode,0,CA,0);\n\t\t\t\tnode.link(CA,0,COMP,0);\n\t\t\t\tvar AP = node.add(node.parentNode(sNode),\"AP\",\"AutoPatchModule\",x,y+80,z);\n\t\t\t\tnode.link(sNode,0,AP,0);\n\t\t\t\tnode.link(AP,0,COMP,1);\n\t\t\t\tvar LA = node.add(node.parentNode(sNode),\"LA\",\"LINE_ART\",x-80,y+80,z);\n\t\t\t\tnode.link(sNode,0,LA,0);\n\t\t\t\tnode.link(LA,0,COMP,2);\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tvar nodesToGroup = [LA,AP,CA];\n\t\t\t\tvar group = node.createGroup(nodesToGroup, \"LA_AP_CA\");\n\t\t\t\tvar newColor = new ColorRGBA(255, 0 , 0, 255);\n\t\t\t\tnode.setColor(group, newColor);\n\t\t\t\tnode.deleteNode(COMP,false,false);\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\tif (vgroupTex ==1)\n\t\t\t\t{\n\t\t\t\t\t\n\t\t\t\tvar COMP = node.add(node.parentNode(sNode),\"COMP\",\"COMPOSITE\",x,y+360,z);\n\t\t\t\tvar COMPtop = node.add(node.parentNode(sNode),\"COMP\",\"COMPOSITE\",x,y+100,z);\n\t\t\t\tvar COMPtoptex = node.add(node.parentNode(sNode),\"COMP\",\"COMPOSITE\",x+100,y+100,z);\n\t\t\t\tvar COMPtex = node.add(node.parentNode(sNode),\"Texture\",\"COMPOSITE\",x+72,y+80,z);\n\t\t\t\t\tvar myAttr = node.getAttrList(COMPtex, frame.current(), \"\");\n\t\t\t\t\t\t\tfor(j=0; j < myAttr.length; j++)\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t  //if(myAttr[j].name() == \"Mode\")\n\t\t\t\t\t\t\t  //{\n\t\t\t\t\t\t\t   // myAttr[j].setValue(\"As Bitmap\");\n\t\t\t\t\t\t\t  //}\n\t\t\t\t\t\t\t  if(myAttr[j].name() == \"Output Z\")\n\t\t\t\t\t\t\t  {\n\t\t\t\t\t\t\t   myAttr[j].setValue(\"Portnumber\");\n\t\t\t\t\t\t\t  }\n\t\t\t\t\t\t\t}\n\n\t\t\t\tvar COMPcolor = node.add(node.parentNode(sNode),\"C-color\",\"COMPOSITE\",x+160,y+260,z);\n\t\t\t\t\tvar myAttr = node.getAttrList(COMPcolor, frame.current(), \"\");\n\t\t\t\t\t\t\tfor(j=0; j < myAttr.length; j++)\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t  if(myAttr[j].name() == \"Mode\")\n\t\t\t\t\t\t\t  {\n\t\t\t\t\t\t\t   myAttr[j].setValue(\"As Bitmap\");\n\t\t\t\t\t\t\t  }\n\t\t\t\t\t\t\t  if(myAttr[j].name() == \"Output Z\")\n\t\t\t\t\t\t\t  {\n\t\t\t\t\t\t\t   myAttr[j].setValue(\"Portnumber\");\n\t\t\t\t\t\t\t  }\n\t\t\t\t\t\t\t}\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tvar CUT = node.add(node.parentNode(sNode),\"Cut\",\"CUTTER\",x+100,y+300,z);\n\t\t\t\t\n\t\t\t\t\tvar myAttr = node.getAttrList(CUT, frame.current(), \"\");\n\t\t\t\t\t\t\tfor(j=0; j < myAttr.length; j++)\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t  if(myAttr[j].name() == \"Inverted\")\n\t\t\t\t\t\t\t  {\n\t\t\t\t\t\t\t   myAttr[j].setValue(true);\n\t\t\t\t\t\t\t  }\n\t\t\t\t\t\t\t}\n\t\t\t\t\n\t\t\t\tvar CA = node.add(node.parentNode(sNode),\"CA\",\"COLOR_ART\",x+80,y+180,z);\n\t\t\t\tnode.link(COMPtop,0,CA,0);\n\t\t\t\tnode.link(CA,0,COMPcolor,0);\n\t\t\t\t\n\t\t\t\tnode.link(COMPtoptex,0,COMPcolor,1);\n\t\t\t\tnode.link(COMPcolor,0,CUT,0);\n\t\t\t\tnode.link(CA,0,CUT,1);\n\t\t\t\tnode.link(CUT,0,COMP,0);\n\t\t\t\t\n\t\t\t\tvar AP = node.add(node.parentNode(sNode),\"AP\",\"AutoPatchModule\",x,y+180,z);\n\t\t\t\tnode.link(COMPtop,0,AP,0);\n\t\t\t\tnode.link(AP,0,COMP,1);\n\t\t\t\tvar LA = node.add(node.parentNode(sNode),\"LA\",\"LINE_ART\",x-80,y+180,z);\n\t\t\t\tnode.link(COMPtop,0,LA,0);\n\t\t\t\tnode.link(LA,0,COMP,2);\n\t\t\t\t\n\t\t\t\tvar nodesToGroup = [CUT,COMPcolor,LA,AP,CA];\n\t\t\t\tvar group = node.createGroup(nodesToGroup, \"LA_AP_CA+Texture\");\n\t\t\t\tvar newColor = new ColorRGBA(255, 0 , 0, 255);\n\t\t\t\tnode.setColor(group, newColor);\n\t\t\t\tnode.link(COMPtex,0,COMPtoptex,0);\n\t\t\t\tnode.link(sNode,0,COMPtop,0);\n\t\t\t\tnode.deleteNode(COMP,false,false);\n\t\t\t\tnode.deleteNode(COMPtop,false,false);\n\t\t\t\tnode.deleteNode(COMPtoptex,false,false);\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tnode.setCoord(group,x,y+100);\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tif (vUL ==1)\n\t\t\t\t{\n\t\t\t\tvar UL = node.add(node.parentNode(sNode),\"UL\",\"UNDERLAY\",x+160,y+80,z);\n\t\t\t\tnode.link(sNode,0,UL,0);\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\tif (vAP ==1)\n\t\t\t\t{\n\t\t\t\tvar AP = node.add(node.parentNode(sNode),\"AP\",\"AutoPatchModule\",x+240,y+80,z);\n\t\t\t\tnode.link(sNode,0,AP,0);\n\t\t\t\t}\n\n\t\t\t}\n\t\t}\n\t}\n\n}\n\nfunction privateButClean()\n{\nvOL = 0; vLA  = 0; vCA = 0;vUL = 0; vgroup = 0; vgroupTex = 0; \nprivateUpdateText();\n}\n\nfunction privateButOL()\n{\n  if (vOL == 0) {vOL = 1;}\n  else { vOL = 0;}\n \n  privateUpdateText();\n \n}\n\nfunction privateButLA()\n{\n  if (vLA == 0) {vLA = 1;}\n  else { vLA = 0;}\n\n  privateUpdateText();\n}\n\nfunction privateButCA()\n{\n  if (vCA == 0) {vCA = 1;}\n  else { vCA = 0;}\n  \n\n  privateUpdateText();\n}\n\nfunction privateButUL()\n{\n  if (vUL == 0) {vUL = 1;}\n  else { vUL = 0;}\n  \n\n  privateUpdateText();\n}\n\nfunction privateButOLUL()\n{\n  if ((vUL == 1) && (vOL == 1) && (vLA == 1) &&( vCA == 1)) {vOL = 0; vLA  = 0; vCA = 0;vUL = 0;}\n  else { vOL = 1; vLA  = 1; vCA = 1;vUL = 1;}\n  \n\n  privateUpdateText();\n}\n\nfunction privateButLAAPCA()\n{\n  if (vgroup == 0) {vgroup = 1;}\n  else { vgroup = 0;}\n  \n \n  privateUpdateText();\n}\n\nfunction privateButLAAPCATex()\n{\n  if (vgroupTex == 0) {vgroupTex = 1;}\n  else { vgroupTex = 0;}\n  \n \n  privateUpdateText();\n}\n\nfunction privateButAP()\n{\n  if (vAP == 0) {vAP = 1;}\n  else { vAP = 0;}\n  \n\n  privateUpdateText();\n}\n\nfunction privateButFull()\n{\n  if ((vUL == 1) && (vOL == 1) && (vLA == 0) && (vCA == 0) && (vgroup == 1) ) {vOL = 0; vLA  = 0; vCA = 0;vUL = 0; vgroup = 0;}\n  else { vOL = 1; vLA  = 0; vCA = 0;vUL = 1; vgroup = 1;}\n  \n\n  privateUpdateText();\n\n}\n\nfunction privateUpdateText()\n{\n\tbodyText.text = \"\";\n  if (vAP ==1) { bodyText.text = \"AP \"+bodyText.text;}\n  if (vUL ==1) { bodyText.text = \"UL \"+bodyText.text;}\n  if (vgroup ==1) { bodyText.text = \"LA-AP-CA \"+bodyText.text;}\n  if (vgroupTex ==1) { bodyText.text = \"LA-AP-CA+Texture \"+bodyText.text;}\n  if (vCA ==1) { bodyText.text = \"CA \"+bodyText.text;}\n  if (vLA ==1) { bodyText.text = \"LA \"+bodyText.text;}\n  if (vOL ==1) { bodyText.text = \"OL \"+bodyText.text;}\n}\n\nthis.Molty_Layers_script = Molty_Layers_script;\nthis.privateButOL = privateButOL;\nthis.privateButLA = privateButLA;\nthis.privateButCA = privateButCA;\nthis.privateButUL = privateButUL;\nthis.privateButAP = privateButAP;\nthis.privateButOLUL = privateButOLUL;\nthis.privateButLAAPCA = privateButLAAPCA;\nthis.privateButLAAPCATex = privateButLAAPCATex;\nthis.privateButFull = privateButFull;\nthis.privateButClean = privateButClean;\n\nMolty_Layers_script();\n})();\n\n\n"
+                },
+                {
+                    "name": "Line Scale Dependent Link",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Line Scale Dependent Link.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "(function() {\n/* \u042d\u0442\u043e\u0442 \u0441\u043a\u0440\u0438\u043f\u0442 \u0434\u0435\u043b\u0430\u0435\u0442 \u0442\u043e\u0449\u0438\u043d\u0443 \u043b\u0438\u043d\u0438\u0438 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0439 \u0438 \u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442 \u043f\u0440\u043e\u043f\u043e\u0440\u0446\u0438\u0438 \u0438\u0441\u0445\u043e\u0434\u044f \u0438\u0437 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u043e \u0442\u043e\u043b\u0449\u0438\u043d\u044b \u043b\u0438\u043d\u0438\u0438 \u0432 3.5\n\n\n*/\nvar bodyText = new LineEdit();\nbodyText.label = \"Mode: \";\nbodyText.text = \"normal mode\";\nvar clean = 0;\nvar inputNum;\n\nvar userInput = new NumberEdit();\nuserInput.decimals = 3;\nuserInput.minimum = 0;\nuserInput.maximum = 100;\nuserInput.value = 3.5;\t\nuserInput.label = \"Enter Line Thickness: \";\n\t\n\t\nvar userInput2 = new NumberEdit();\nuserInput2.decimals = 3;\nuserInput2.minimum = 0;\nuserInput2.maximum = 100;\nuserInput2.label = \"Native Line Thickness: \";\nuserInput2.value = 3.3;\t\n\t\nvar userInput3 = new NumberEdit();\nuserInput3.decimals = 3;\nuserInput3.minimum = 0;\nuserInput3.maximum = 100;\nuserInput3.label = \"Resolution ratio\";\nuserInput3.value = 0.5;\t\n\n\nfunction Molty_line_scale_dependent(){\n\n\tvar exeDialog = new private_exeDialog();\n\n\tscene.beginUndoRedoAccum(\"Molty_line_scale_dependent\");\n\n\texeDialog.main();\n\t  \n\tscene.endUndoRedoAccum(\"Molty_line_scale_dependent\");\n\t\n  }\n\n\nfunction private_exeDialog(){\n\n \tthis.main = function(){\n\t\t\n\t\tvar myDialog = new Dialog();\n\t\tmyDialog.title = \"Line Thickness script V011\";\n\n\t\tvar butC15 = new Button();\n\t\tbutC15.label = \"1.0 px\";\n\t\tbutC15.callback = \"funButC15\";\n\t\t\n\t\tvar butC25 = new Button();\n\t\tbutC25.label = \"3.3 px\";\n\t\tbutC25.callback = \"funButC25\";\n\t\t\n\t\tvar butC35 = new Button();\n\t\tbutC35.label = \"3.5 px\";\n\t\tbutC35.callback = \"funButC35\";\n\t\n\t\tvar but6 = new Button();\n\t\tbut6.label = \"6 px\";\n\t\tbut6.callback = \"funBut6\";\n\t\t\n\t\tvar but35 = new Button();\n\t\tbut35.label = \"3.5 px\";\n\t\tbut35.callback = \"funBut35\";\n\t\n\t\tvar but25 = new Button();\n\t\tbut25.label = \"2.5 px\";\n\t\tbut25.callback = \"funBut25\";\n\t\n\t\tvar but15 = new Button();\n\t\tbut15.label = \"1.5 px\";\n\t\tbut15.callback = \"funBut15\";\n\t\t\n\t\tvar butFHD = new Button();\n\t\tbutFHD.label = \"0.5 Full HD\";\n\t\tbutFHD.callback = \"funButFHD\";\n\t\t\n\t\tvar but4K = new Button();\n\t\tbut4K.label = \"0.2 4K\";\n\t\tbut4K.callback = \"funBut4K\";\n\t\t\n\t\tvar butClean = new Button();\n\t\tbutClean.label = \"Switch mode (clean/normal)\";\n\t\tbutClean.callback = \"privateButClean\";\n\n\t\tmyDialog.add( userInput2 );\n\t\t\n\t\tmyDialog.add(butC15);\n\t\tmyDialog.add(butC25);\n\t\tmyDialog.add(butC35);\n\t\t\n\t\tmyDialog.add( userInput );\n\t\t\n\t\tmyDialog.add(but15);\n\t\tmyDialog.add(but25);\n\t\tmyDialog.add(but35);\n\t\tmyDialog.add(but6);\n\t\t\n\t\tmyDialog.add( userInput3 );\n\t\t\n\t\tmyDialog.add(butFHD);\n\t\tmyDialog.add(but4K);\n\t\t\n\t\tmyDialog.add(bodyText);\n\t\tmyDialog.add(butClean);\n\t\t\n\t\tif ( myDialog.exec() )\n\t\t{\n\n\t\t\tinputNum = userInput.value/userInput2.value/userInput3.value;\n\n\t\t\tvar selectionNodes = selection.selectedNodes(0);\n\t\t\t\n\t\t\t\n\t\t\tif (clean == 0)\n\t\t\t{\n\t\t\t\n\t\t\t\tfor (var i = 0; i < selectionNodes.length; ++i)\n\t\t\t\t{\n\t\t\t\t\tif (node.type(selectionNodes[i]) == \"READ\") \n\t\t\t\t\t{\n\t\t\t\t\t\tvar sNode = selectionNodes[i];\n\t\t\t\t\t\t\n\t\t\t\t\t\tnode.setTextAttr(sNode,\"ADJUST_PENCIL_THICKNESS\", frame.current(),\"Y\");\n\n\t\t\t\t\t\tvar myAttr = node.getAttrList(sNode, frame.current(), \"\");\n\n\t\t\t\t\t\tfor(j=0; j < myAttr.length; j++)\n\t\t\t\t\t\t{\n\t\t\t\t\t\t  if(myAttr[j].name() == \"Scale Independent\")\n\t\t\t\t\t\t  {\n\t\t\t\t\t\t   myAttr[j].setValue(\"Scale Independent (Legacy)\");\n\t\t\t\t\t\t  }\n\t\t\t\t\t\t  if(myAttr[j].name() == \"Zoom Independent Thickness\")\n\t\t\t\t\t\t  {\n\t\t\t\t\t\t   myAttr[j].setValue(true);\n\t\t\t\t\t\t  }\n\t\t\t\t\t\t  \n\n\t\t\t\t\t\t  if((myAttr[j].name() == \"Proportional\") && (inputNum != 0))\n\t\t\t\t\t\t  {\n\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\tif (node.linkedColumn(sNode, \"multLineArtThickness\") != \"\") // \u0415\u0441\u043b\u0438 \u0435\u0441\u0442\u044c \u0444\u0443\u043d\u043a\u0446\u0438\u044f\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\tvar OldColumnName = node.linkedColumn(sNode, \"multLineArtThickness\");\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tif (OldColumnName.indexOf(\"Molty_\") >= 0)\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\tvar NewColumnName = OldColumnName;\n\t\t\t\t\t\t\t\t\tOldColumnName = OldColumnName.replace (\"Molty_\", \"\");\n\t\t\t\t\t\t\t\t\t//MessageBox.warning(OldColumnName);\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\tvar NewColumnName = \"Molty_\" + OldColumnName; //\u043d\u043e\u0432\u043e\u0435 \u0438\u043c\u044f \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0441\u0442\u0430\u0440\u043e\u0433\u043e\n\t\t\t\t\t\t\t\t}\n\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tvar ExprString = \"ref = value(\\\"\" + OldColumnName + \"\\\"); value = \" + inputNum + \"* ref;\";\n\t\t\t\t\t\t\t\tif  (column.type(NewColumnName) != \"EXPR\")\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\tcolumn.add (NewColumnName, \"EXPR\");\n\t\t\t\t\t\t\t\t}\t\n\t\t\t\t\t\t\t\t//MessageBox.warning();\n\t\t\t\t\t\t\t\tcolumn.setTextOfExpr(NewColumnName,ExprString);\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tnode.unlinkAttr(sNode, \"multLineArtThickness\");\n\t\t\t\t\t\t\t\tmyAttr[j].setValue(inputNum);\n\t\t\t\t\t\t\t\tnode.linkAttr(sNode, \"multLineArtThickness\",NewColumnName);\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\tmyAttr[j].setValue(inputNum);\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t//MessageBox.warning(inputNum);\n\t\t\t\t\t\t\t//myAttr[j].setValue(inputNum);\n\t\t\t\t\t\t  }\n\t\t\t\t\t\t  \n\t\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (clean == 1)\n\t\t\t{\n\t\t\t\tfor (var i = 0; i < selectionNodes.length; ++i)\n\t\t\t\t{\n\t\t\t\t\tif (node.type(selectionNodes[i]) == \"READ\") \n\t\t\t\t\t{\n\t\t\t\t\t\tvar sNode = selectionNodes[i];\n\t\t\t\t\t\t\n\t\t\t\t\t\tnode.setTextAttr(sNode,\"ADJUST_PENCIL_THICKNESS\", frame.current(),\"N\");\n\n\t\t\t\t\t\tvar myAttr = node.getAttrList(sNode, frame.current(), \"\");\n\n\t\t\t\t\t\tfor(j=0; j < myAttr.length; j++)\n\t\t\t\t\t\t{\n\t\t\t\t\t\t  if(myAttr[j].name() == \"Scale Independent\")\n\t\t\t\t\t\t  {\n\t\t\t\t\t\t   myAttr[j].setValue(\"Scale Dependent\");\n\t\t\t\t\t\t  }\n\t\t\t\t\t\t  if(myAttr[j].name() == \"Zoom Independent Thickness\")\n\t\t\t\t\t\t  {\n\t\t\t\t\t\t   myAttr[j].setValue(false);\n\t\t\t\t\t\t  }\n\t\t\t\t\t\t  \n\n\t\t\t\t\t\t  if((myAttr[j].name() == \"Proportional\") && (inputNum != 0))\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\tnode.unlinkAttr(sNode, \"multLineArtThickness\");\n\t\t\t\t\t\t\t\tmyAttr[j].setValue(1);\n\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t }\n\t\t\t\t\t\t  \n\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t}\n\t\t\t\t\t\n\t\t\t}\n\t\t\t}\n\t\t\t\n\t\t\t\n\t\t}\n\t}\n\nfunction funButC15(){\nuserInput2.value = 1.0;\n}\n\nfunction funButC25(){\nuserInput2.value = 3.3;\n}\n\nfunction funButC35(){\nuserInput2.value = 3.5;\n}\n\nfunction funBut6(){\nuserInput.value = 6;\n}\n\nfunction funBut35(){\nuserInput.value = 3.5;\n}\n\nfunction funBut25(){\nuserInput.value = 2.5;\n}\n\nfunction funBut15(){\nuserInput.value = 1.5;\n}\n\nfunction funButFHD(){\nuserInput3.value = 0.5;\n}\n\nfunction funBut4K(){\nuserInput3.value = 0.2;\n}\n\nfunction privateButClean(){\n\tif (clean == 0) {clean = 1;}\n\telse {clean = 0;}\n\tprivateUpdateText();\n}\n\nfunction privateUpdateText()\n{\n\tbodyText.text = \"\";\n\n  if (clean ==1) { bodyText.text = \"clean all settings\"}\n  else { bodyText.text = \"normal\"}\n\n}\n\nthis.funButC15 = funButC15;\nthis.funButC25 = funButC25;\nthis.funButC35 = funButC35;\nthis.funBut6 = funBut6;\nthis.funBut35 = funBut35;\nthis.funBut25 = funBut25;\nthis.funBut15 = funBut15;\nthis.funButFHD = funButFHD;\nthis.funBut4K = funBut4K;\nthis.privateButClean = privateButClean;\n\nMolty_line_scale_dependent();\n})();"
+                },
+                {
+                    "name": "BG Group clean V2",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\BG Group clean V2.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "(function() {\n   \nfunction Molty_BG_Group_cleanV2(){\t\n\t\n\tvar exeDialog = new private_exeDialog();\n\n\tscene.beginUndoRedoAccum(\"Molty_BG_Group_cleanV2\");\n\n\texeDialog.main();\n\t  \n\tscene.endUndoRedoAccum(\"Molty_BG_Group_cleanV2\");\n\tMessageBox.information(\"DONE!\");\n\t\n  }\n\nfunction private_exeDialog(){\n \n\tthis.main = function(){\n\n\n\tvar selectionNodes = selection.selectedNodes(0);\n\t\n\t\tsNode = selectionNodes[0];\n\t\tvar x = node.coordX(sNode);\n\t\tvar y = node.coordY(sNode);\n\t\tvar z = node.coordZ(sNode);\n\t\tvar MasterPEG = node.add(node.parentNode(sNode),\"BG_Master-P\",\"PEG\",x,y-160,z);\t\t\n\t\t\n\t\tfor (var i = 0; i < selectionNodes.length; ++i){\n\t\t\tsNode = selectionNodes[i];\n\t\t\tif (node.type(sNode) == \"READ\") {\n\t\t\t\treadMaster(sNode,MasterPEG);\n\t\t\t}\n\t\t\tif (node.type(sNode) == \"GROUP\") {\n\t\t\t\tgroupMaster(sNode,MasterPEG);\n\t\t\t}\n\t\t\tif (node.type(sNode) == \"COMPOSITE\") {\n\t\t\t\tnode.rename(sNode,\"C-BG_Master\");\n\t\t\t}\n\n\t\t}\n\t\t\n\t\tif (selectionNodes.length <= 1) {node.deleteNode(MasterPEG,false,false);}\n\n\n\n\t}\n}\n\nfunction GroupClean(Gnode){\n\n\tvar selectionNodes = node.subNodes(Gnode);\n\tvar GinputModule = node.getGroupInputModule(Gnode, \"\", 0,0,0);\n\tvar Ginx = node.coordX(GinputModule);\n\tvar Giny = node.coordY(GinputModule);\n\tvar Ginz = node.coordZ(GinputModule);\n\tvar MasterPEG = node.add(Gnode,node.getName(Gnode)+\"_master-P\",\"PEG\",Ginx,Giny+160,Ginz);\n\tnode.link(GinputModule,0,MasterPEG,0,false,false);\n\t\n\tfor (var i = 0; i < selectionNodes.length; ++i){\n\t\t\tsNode = selectionNodes[i];\n\t\t\tif (node.type(sNode) == \"READ\") {\n\t\t\t\treadMaster(sNode,MasterPEG);\n\t\t\t}\n\t\t\tif (node.type(sNode) == \"GROUP\") {\n\t\t\t\tgroupMaster(sNode,MasterPEG);\n\t\t\t}\n\t\t\tif (node.type(sNode) == \"COMPOSITE\") {\n\t\t\t\tnode.rename(sNode,\"C-\"+ node.getName(Gnode));\n\t\t\t}\n\n\t}\n\tnode.deleteNode(MasterPEG,false,false);\n\n}\n\nfunction cleanUnexposedCels(readNode) {\n        var useTiming = node.getAttr(readNode, 1, \"drawing.elementMode\").boolValue();\n\t\tvar drawColumn = node.linkedColumn(readNode, useTiming ? \"drawing.element\" : \"drawing.customName.timing\");\n\t\tif (!drawColumn) return;\n\n        var firstFrame = 1;\n        var lastFrame = frame.numberOf();\n        var exposedCels = [];\n\n        // \u0421\u043e\u0431\u0438\u0440\u0430\u0435\u043c \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435 \u043a\u0430\u0434\u0440\u044b\n        for (var curFrame = firstFrame; curFrame <= lastFrame; curFrame++) {\n            var curCelName = column.getEntry(drawColumn, 1, curFrame);\n            if (curCelName !== \"\" && exposedCels.indexOf(curCelName) === -1) {\n                exposedCels.push(curCelName);\n            }\n        }\n\n        // \u0423\u0434\u0430\u043b\u044f\u0435\u043c \u043d\u0435\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0435\n        var lastCel = column.getEntry(drawColumn, 1, lastFrame);\n        var allCels = column.getDrawingTimings(drawColumn);\n        for (var i = 0; i < allCels.length; i++) {\n            if (exposedCels.indexOf(allCels[i]) === -1) {\n                column.setEntry(drawColumn, 1, lastFrame, allCels[i]);\n                column.deleteDrawingAt(drawColumn, lastFrame);\n            }\n        }\n        column.setEntry(drawColumn, 1, lastFrame, lastCel);\n}\n\nfunction duplicateDrawing(readNode,x,y,z) {\n    // \u0421\u043e\u0431\u0438\u0440\u0430\u0435\u043c \u0434\u0430\u043d\u043d\u044b\u0435 \u043e \u0441\u0432\u044f\u0437\u044f\u0445\n    var parentGroup = node.parentNode(readNode);\n    // \u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0442\u043e\u043c, \u043a\u0442\u043e \u0441\u0432\u0435\u0440\u0445\u0443 (\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c srcNodeInfo)\n    var inputNode = node.srcNodeInfo(readNode, 0);  \n\t// \u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0442\u0435\u0445, \u043a\u0442\u043e \u0441\u043d\u0438\u0437\u0443 (\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c dstNodeInfo)\n    var destinationNode = node.dstNodeInfo(readNode, 0, 0);\n\n    // \u0414\u0443\u0431\u043b\u0438\u0440\u0443\u0435\u043c\n    selection.clearSelection();\n    selection.addNodeToSelection(readNode);\n    Action.perform(\"onActionDuplicateElement()\", \"Node View\");\n  \n\tvar newSelection = selection.selectedNodes(0);\n    var newNode = newSelection[0];\n\tvar newNodeName = node.getName(readNode) + \"-bg\";\n\tvar parentGroupNewNode = node.parentNode(newNode);\n\tnode.rename(newNode,newNodeName);\n\tnewNode = parentGroupNewNode + \"/\" + newNodeName;\n\t\n\t// \u041f\u0435\u0440\u0435\u043c\u0435\u0449\u0430\u0435\u043c \u0432 \u0433\u0440\u0443\u043f\u043f\u0443\n\tvar dstGroup = node.moveToGroup(newNode,parentGroup);\n\t\n\tif (dstGroup != \"\"){\n    newNode = dstGroup + \"/\" + newNodeName;\n\t}\n\telse{\n\tnewNode = \"Top/\" + newNodeName;\n\t\n\t}\n\tnode.setCoord(newNode,x,y,z);\n\t\n\t// \u0423\u0434\u0430\u043b\u044f\u0435\u043c \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\n    node.deleteNode(readNode, true, true);\n    return newNode;\n}\n\nfunction readMaster(sNode,MasterPEG,MasterCOMP) {\n\tvar x = node.coordX(sNode);\n\tvar y = node.coordY(sNode);\n\tvar z = node.coordZ(sNode);\n\tvar NewPEG = node.add(node.parentNode(sNode),node.getName(sNode)+\"_bg-P\",\"PEG\",x,y-80,z);\n\tnode.unlink(sNode, 0);\n\tnode.link(MasterPEG,0,NewPEG,0);\n\t\n\tvar dstCompNode = node.dstNode(sNode,0,0)\n\t\n\tDubNode = duplicateDrawing(sNode,x,y,z);\n\t\n\tif (node.dstNode(DubNode,0,0) == \"\") { node.link(DubNode,0,dstCompNode,0);}\n\t\n\tnode.unlink(DubNode, 0);\n\tnode.link(NewPEG,0,DubNode,0);\n\tcleanUnexposedCels(DubNode);\n}\n\nfunction groupMaster(sNode,MasterPEG,MasterCOMP) {\n\tvar x = node.coordX(sNode);\n\tvar y = node.coordY(sNode);\n\tvar z = node.coordZ(sNode);\n\tvar inputModule = node.getGroupInputModule(sNode, \"\", 0,0,0);\n\tvar inx = node.coordX(inputModule);\n\tvar iny = node.coordY(inputModule);\n\tvar inz = node.coordZ(inputModule);\n\tnode.deleteNode(inputModule,false,false);\n\tvar inputModule = node.getGroupInputModule(sNode, \"\", inx,iny-300,inz);\n\t\t\t\t\n\tvar NewPEG = node.add(node.parentNode(sNode),node.getName(sNode)+\"-P\",\"PEG\",x,y-80,z);\n\tvar tempPEG = node.add(sNode,sNode+\"-temp-P\",\"PEG\",0,0,0);\n\t\t\t\t\n\tnode.unlink(sNode, 0);\n\tnode.link(inputModule,0,tempPEG,0,true,true);\n\tnode.link(NewPEG,0,sNode,0,true,true);\n\tnode.link(MasterPEG,0,NewPEG,0);\n\tnode.link(sNode,0,MasterCOMP,0);\n\tnode.deleteNode(tempPEG,false,false);\n\tGroupClean(sNode);\n}\n    // \u0417\u0430\u043f\u0443\u0441\u043a \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u0438\n    Molty_BG_Group_cleanV2();\n\n})();"
+                },
+                {
+                    "name": "Rename CompPeg",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Rename CompPeg.png",
+                    "submenu": [
+                        {
+                            "type": "js",
+                            "name": "\u0421omposite AP rename",
+                            "js": "(function() {\n    var selectionNodes = selection.selectedNodes();\n    scene.beginUndoRedoAccum(\"Rename Comp by Source\");\n\n    for (var i = 0; i < selectionNodes.length; ++i) {\n        var sNode = selectionNodes[i];\n        \n        // \u0420\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0441 \u041a\u043e\u043c\u043f\u043e\u0437\u0438\u0442\u0430\u043c\u0438\n        if (node.type(sNode) === \"COMPOSITE\") {\n            \n            // \u0423\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u043c \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u0446\u0432\u0435\u0442, \u043a\u0430\u043a \u0432 \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u0435\n            node.setColor(sNode, new ColorRGBA(255, 0, 0, 255));\n            \n            var newCompName = \"\";\n            var numInput = node.numberOfInputPorts(sNode);\n\n            for (var j = 0; j < numInput; ++j) {\n                var parentNode = node.srcNode(sNode, j);\n                if (!parentNode) continue;\n\n                var finalRead = null;\n\n                // \u0415\u0441\u043b\u0438 \u044d\u0442\u043e \u0441\u0440\u0430\u0437\u0443 Read-\u043d\u043e\u0434\u0430\n                if (node.type(parentNode) === \"READ\") {\n                    finalRead = parentNode;\n                } else {\n                    // \u0418\u0449\u0435\u043c Read-\u043d\u043e\u0434\u0443 \u0432\u0432\u0435\u0440\u0445 \u043f\u043e \u0438\u0435\u0440\u0430\u0440\u0445\u0438\u0438 (\u0434\u043e 10 \u0443\u0440\u043e\u0432\u043d\u0435\u0439)\n                    var tempNode = parentNode;\n                    for (var z = 0; z < 10; ++z) {\n                        var nextNode = node.srcNode(tempNode, node.numberOfInputPorts(tempNode) - 1);\n                        if (!nextNode) break;\n                        if (node.type(nextNode) === \"READ\") {\n                            finalRead = nextNode;\n                            break;\n                        }\n                        tempNode = nextNode;\n                    }\n                }\n\n                if (finalRead) {\n                    var readName = node.getName(finalRead);\n                    if (newCompName === \"\") {\n                        newCompName = \"AP-\" + readName;\n                    } else {\n                        newCompName += \"+\" + readName;\n                    }\n                }\n            }\n\n            // \u041f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u044b\u0432\u0430\u0435\u043c \u0441 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u043e\u0439 \u043d\u0430 \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c\n            if (newCompName !== \"\") {\n                if (!node.rename(sNode, newCompName)) {\n                    for (var x = 1; x < 100; ++x) { // \u0423\u043c\u0435\u043d\u044c\u0448\u0438\u043b \u0446\u0438\u043a\u043b \u0434\u043e 100 \u0434\u043b\u044f \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u0438\n                        if (node.rename(sNode, newCompName + \"_\" + x)) break;\n                    }\n                }\n            }\n        }\n    }\n    scene.endUndoRedoAccum();\n})();",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\\u0421omposite AP rename.png"
+                        },
+                        {
+                            "type": "js",
+                            "name": "Deformation rename script",
+                            "js": "(function() {\n    var addedPrefics = \"Def\";\n    var deletedPrefics = \"Deformation\";\n    var selectionNodes = selection.selectedNodes();\n\n    if (selectionNodes.length === 0) return;\n\n    scene.beginUndoRedoAccum(\"Molty_def_rename\");\n\n    for (var i = 0; i < selectionNodes.length; ++i) {\n        var sNode = selectionNodes[i];\n        var nodeName = node.getName(sNode);\n        \n        // \u0417\u0430\u043c\u0435\u043d\u044f\u0435\u043c \"Deformation\" \u043d\u0430 \"Def\" \u0432 \u0438\u043c\u0435\u043d\u0438 \u0443\u0437\u043b\u0430\n        if (nodeName.indexOf(deletedPrefics) !== -1) {\n            var newNodeName = nodeName.replace(deletedPrefics, addedPrefics);\n            node.rename(sNode, newNodeName);\n        }\n    }\n\n    scene.endUndoRedoAccum();\n})();",
+                            "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Deformation rename script.png"
+                        }
+                    ],
+                    "type": "js",
+                    "js": "(function() {\n    function Molty_SmartRename() {\n        var selectionNodes = selection.selectedNodes(0);\n        if (selectionNodes.length === 0) return;\n\n        scene.beginUndoRedoAccum(\"Molty_SmartRename\");\n\n        // \u041f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u043c \u043d\u0430\u043b\u0438\u0447\u0438\u0435 \u0440\u0438\u0441\u0443\u043d\u043a\u043e\u0432 (READ \u043d\u043e\u0434) \u0432 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u0438\u0438\n        var readNodes = selectionNodes.filter(function(n) { return node.type(n) === \"READ\"; });\n\n        if (readNodes.length > 0) {\n            // \u041b\u041e\u0413\u0418\u041a\u0410 \u0421 \u0420\u0418\u0421\u0423\u041d\u041a\u0410\u041c\u0418: \u0431\u0435\u0440\u0435\u043c \u0438\u043c\u044f \u043f\u0435\u0440\u0432\u043e\u0433\u043e \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u043e\u0433\u043e \u0440\u0438\u0441\u0443\u043d\u043a\u0430\n            var baseName = node.getName(readNodes[0]);\n            var newCompName = \"C-\" + baseName;\n            var newPegName = baseName + \"-P\";\n            var newGroupName = \"Def-\" + baseName;\n\n            for (var i = 0; i < selectionNodes.length; i++) {\n                var sNode = selectionNodes[i];\n                var type = node.type(sNode);\n                if (type === \"COMPOSITE\") safeRename(sNode, newCompName);\n                else if (type === \"PEG\") safeRename(sNode, newPegName);\n                else if (type === \"GROUP\") safeRename(sNode, newGroupName);\n            }\n        } else {\n            // \u041b\u041e\u0413\u0418\u041a\u0410 \u0411\u0415\u0417 \u0420\u0418\u0421\u0423\u041d\u041a\u041e\u0412: \u041f\u0435\u0433\u0438 \u043e\u0442 \u041f\u0435\u0433\u043e\u0432, \u041a\u043e\u043c\u043f\u043e\u0437\u044b \u043e\u0442 \u041a\u043e\u043c\u043f\u043e\u0437\u043e\u0432\n            for (var i = 0; i < selectionNodes.length; i++) {\n                var sNode = selectionNodes[i];\n                var type = node.type(sNode);\n\n                if (type === \"PEG\") {\n                    var childPegNames = [];\n                    var numOutput = node.numberOfOutputLinks(sNode, 0);\n                    \n                    for (var j = 0; j < numOutput; j++) {\n                        var dNode = node.dstNode(sNode, 0, j);\n                        // \u0411\u0435\u0440\u0435\u043c \u0438\u043c\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u0435\u0441\u043b\u0438 \u044d\u0442\u043e PEG\n                        if (node.type(dNode) === \"PEG\") {\n                            childPegNames.push(node.getName(dNode).replace(\"-P\", \"\"));\n                        }\n                    }\n\n                    applyNewName(sNode, childPegNames, \"\", \"-P\");\n                } \n                \n                else if (type === \"COMPOSITE\") {\n                    var parentCompNames = [];\n                    var numInput = node.numberOfInputPorts(sNode);\n                    \n                    for (var j = 0; j < numInput; j++) {\n                        var src = node.srcNode(sNode, j);\n                        // \u0411\u0435\u0440\u0435\u043c \u0438\u043c\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u0435\u0441\u043b\u0438 \u044d\u0442\u043e COMPOSITE\n                        if (src && node.type(src) === \"COMPOSITE\") {\n                            var cName = node.getName(src).replace(\"C-\", \"\");\n                            if (parentCompNames.indexOf(cName) === -1) {\n                                parentCompNames.push(cName);\n                            }\n                        }\n                    }\n\n                    applyNewName(sNode, parentCompNames, \"C-\", \"\");\n                }\n            }\n        }\n\n        scene.endUndoRedoAccum(\"Molty_SmartRename\");\n    }\n\n    // \u0412\u0441\u043f\u043e\u043c\u043e\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0444\u0443\u043d\u043a\u0446\u0438\u044f \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0438\u043c\u0435\u043d\u0438 \u0438 \u043f\u0440\u0438\u0441\u0442\u0430\u0432\u043a\u0438 _master\n    function applyNewName(sNode, namesArray, prefix, suffix) {\n        if (namesArray.length === 0) return;\n\n        var finalName = \"\";\n        if (namesArray.length === 1) {\n            finalName = prefix + namesArray[0] + \"_master\" + suffix;\n        } else {\n            finalName = prefix + namesArray.join(\"+\") + suffix;\n        }\n        \n        safeRename(sNode, finalName);\n    }\n\n    // \u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u0441 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u043e\u0439 \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438\n    function safeRename(sNode, newName) {\n        if (!node.rename(sNode, newName)) {\n            for (var x = 1; x < 2000; x++) {\n                if (node.rename(sNode, newName + \"_\" + x)) break;\n            }\n        }\n    }\n\n    // \u0417\u0430\u043f\u0443\u0441\u043a\n    Molty_SmartRename();\n\n})();"
+                },
+                {
+                    "name": "X Pivot to 0",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\X Pivot to 0.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "(function() {\n    function Molty_xPivot_to_zero() {\n        var exeDialog = new private_exeDialog();\n\n        scene.beginUndoRedoAccum(\"Molty_xPivot_to_zero\");\n        exeDialog.main();\n        scene.endUndoRedoAccum(\"Molty_xPivot_to_zero\");\n    }\n\n    function private_exeDialog() {\n        this.main = function() {\n            var selectionNodes = selection.selectedNodes(0);\n            var successCount = 0;\n\n            for (var i = 0; i < selectionNodes.length; ++i) {\n                var sNode = selectionNodes[i];\n                var type = node.type(sNode);\n\n                // \u0420\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0441 PEG \u0438 READ \u043d\u043e\u0434\u0430\u043c\u0438\n                if (type == \"PEG\" || type == \"READ\") {\n                    var pivotAttr = node.getAttr(sNode, frame.current(), \"pivot.x\");\n                    \n                    // \u0415\u0441\u043b\u0438 \u0430\u0442\u0440\u0438\u0431\u0443\u0442 pivot \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 (\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0447\u0435\u0440\u0435\u0437 \u043d\u0430\u043b\u0438\u0447\u0438\u0435 \u0441\u043f\u0438\u0441\u043a\u0430 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u043e\u0432)\n                    if (pivotAttr) {\n                        var yAttr = node.getAttr(sNode, frame.current(), \"pivot.y\");\n                        var zAttr = node.getAttr(sNode, frame.current(), \"pivot.z\");\n                        \n                        // \u0421\u043e\u0437\u0434\u0430\u0435\u043c \u043d\u043e\u0432\u0443\u044e \u0442\u043e\u0447\u043a\u0443 \u0441 X = 0 \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u043c \u0442\u0435\u043a\u0443\u0449\u0438\u0435 Y \u0438 Z\n                        var newPivot = new Point3d(0, yAttr.doubleValue(), zAttr.doubleValue());\n                        \n                        // \u041d\u0430\u0445\u043e\u0434\u0438\u043c \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0430\u0442\u0440\u0438\u0431\u0443\u0442 Pivot \u0434\u043b\u044f \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f Point3d\n                        var myAttrs = node.getAttrList(sNode, frame.current(), \"\");\n                        for (var j = 0; j < myAttrs.length; j++) {\n                            if (myAttrs[j].name() == \"Pivot\") {\n                                myAttrs[j].setValue(newPivot);\n                                successCount = 1;\n                                break;\n                            }\n                        }\n                    }\n                }\n            }\n\n            if (successCount == 1) {\n                MessageBox.information(\"!!!Success!!!\");\n            }\n        };\n    }\n\n    // \u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0437\u0430\u043f\u0443\u0441\u043a \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u043f\u0440\u0438 \u0432\u044b\u0437\u043e\u0432\u0435 \u0441\u043a\u0440\u0438\u043f\u0442\u0430\n    Molty_xPivot_to_zero();\n\n})();"
+                },
+                {
+                    "name": "Backdrop",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Backdrop.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "(function() {\n    function Molty_Backdrop() {\n        var exeDialog = new private_exeDialog();\n\n        scene.beginUndoRedoAccum(\"Molty_Backdrop\");\n        exeDialog.main();\n        scene.endUndoRedoAccum(\"Molty_Backdrop\");\n    }\n\n    function private_exeDialog() {\n        this.main = function() {\n            var selectionNodes = selection.selectedNodes(0);\n            if (selectionNodes.length === 0) return; // \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043d\u0430 \u043f\u0443\u0441\u0442\u0443\u044e \u0432\u044b\u0431\u043e\u0440\u043a\u0443\n\n            var sNode = selectionNodes[0];\n            var MinX = node.coordX(sNode);\n            var MinY = node.coordY(sNode);\n            var MaxX = node.coordX(sNode);\n            var MaxY = node.coordY(sNode);\n            var BackdropName = \"\";\n\n            for (var i = 0; i < selectionNodes.length; ++i) {\n                sNode = selectionNodes[i];\n                var x1 = node.coordX(sNode);\n                var y1 = node.coordY(sNode);\n                var x2 = node.coordX(sNode) + node.width(sNode);\n                var y2 = node.coordY(sNode) + node.height(sNode);\n                \n                if (MinX > x1) { MinX = x1; }\n                if (MinY > y1) { MinY = y1; }\n                if (MaxX < x2) { MaxX = x2; }\n                if (MaxY < y2) { MaxY = y2; }\n\n                var source = node.srcNode(sNode, 0);\n\n                if (selectionNodes.indexOf(source) == -1) {\n                    BackdropName = node.getName(selectionNodes[i]);\n                    BackdropName = BackdropName.replace(\"-G\", \"\").replace(\"-P\", \"\");\n                }\n\n                if ((node.type(selectionNodes[i]) == \"PEG\" || node.type(selectionNodes[i]) == \"GROUP\") && (source == \"\")) {\n                    BackdropName = node.getName(selectionNodes[i]);\n                    BackdropName = BackdropName.replace(\"-G\", \"\").replace(\"-P\", \"\");\n                }\n            }\n\n            var myBackdrop = {\n                \"position\": { \"x\": (MinX - 10), \"y\": (MinY - 10), \"w\": (MaxX - MinX + 20), \"h\": (MaxY - MinY + 20) },\n                \"title\": { \"text\": BackdropName, \"color\": 4278190080, \"size\": 14, \"font\": \"Arial\" },\n                \"description\": { \"text\": \"\", \"color\": 4278190080, \"size\": 14, \"font\": \"Arial\" },\n                \"color\": fromRGBAtoInt(50, 50, 50, 255)\n            };\n            \n            Backdrop.addBackdrop(node.parentNode(sNode), myBackdrop);\n        }\n    }\n\n    function fromRGBAtoInt(r, g, b, a) {\n        return ((a & 0xff) << 24) | ((r & 0xff) << 16) | ((g & 0xff) << 8) | (b & 0xff);\n    }\n\n    // \u041d\u0435\u043f\u043e\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0432\u044b\u0437\u043e\u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u0438\n    Molty_Backdrop();\n\n})();"
+                },
+                {
+                    "name": "Show All Nodes",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Show All Nodes.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionShowAllModules()\", \"Node View\");"
+                },
+                {
+                    "name": "Cable Cutter",
+                    "icon": "C:\\HarmonyRadialWheel\\Molty_RadialWheel\\actions\\Cable Cutter.png",
+                    "submenu": [],
+                    "type": "js",
+                    "js": "Action.perform(\"onActionToggleCableCutter()\", \"Node View\");"
+                }
+            ],
+            "outer_radius": 180,
+            "logo": "C:/HarmonyRadialWheel/Molty_RadialWheel/Logo2.png",
+            "harmony_only": true
+        },
+        {
+            "name": "Custom Wheel",
+            "shortcut": "delete",
+            "modifiers": [
+                "ctrl",
+                "shift",
+                "alt"
+            ],
+            "segments": [],
+            "outer_radius": 180,
+            "logo": "C:/HarmonyRadialWheel/Molty_RadialWheel/logo.png",
+            "harmony_only": false
+        }
+    ]
+}

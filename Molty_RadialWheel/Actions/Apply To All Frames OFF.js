@@ -1,0 +1,1 @@
+ToolProperties.setApplyAllDrawings(0);

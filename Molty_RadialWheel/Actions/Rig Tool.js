@@ -1,0 +1,1 @@
+Action.perform("onActionSelectRigTool", "miniPegModuleResponder");

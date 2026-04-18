@@ -1,0 +1,1 @@
+Tools.setCurrentTool("Contour Editor");

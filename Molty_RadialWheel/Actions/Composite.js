@@ -1,0 +1,1 @@
+Action.perform("onActionCreateComposite()", "Node View");
