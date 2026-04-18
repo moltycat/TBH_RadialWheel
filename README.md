@@ -81,7 +81,7 @@ The package includes built-in custom scripts:
   4. `Molty_def_rename` - renames "deformation" to "def".
   5. `Molty_composite_AP_rename` - renames the composite based on nodes connected to it to create autopatch systems.
   6. `Molty_Layers_script` - allows you to choose layer templates under the selected drawing.
-  7. `Molty_Line_Thickness_script` - настраивает толщину линии на рендере на заданный размер пикселей. Работает в 1080p и 4k.
+  7. `Molty_Line_Thickness_script` - adjusts the line thickness on the render to the specified pixel size. It works in 1080p and 4k.
 
 ---
 
